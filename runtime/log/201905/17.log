@@ -1,0 +1,251 @@
+---------------------------------------------------------------
+[ 2019-05-17T10:33:25+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:34:34+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:34:44+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:35:11+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:35:28+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:35:39+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:36:18+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:37:08+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:37:17+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:40:06+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:40:16+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:49:35+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:51:21+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:52:01+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:54:05+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T10:59:24+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T11:00:02+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T11:00:45+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T11:01:10+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T11:02:08+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T11:03:10+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ error ] [1]Class 'Firebase\JWT\JWT' not found
+---------------------------------------------------------------
+[ 2019-05-17T11:04:37+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.082574s][吞吐率：12.11req/s] [内存消耗：3,141.80kb] [文件加载：44]
+[ error ] [1]Class 'Firebase\JWT\JWT' not found[/Applications/MAMP/htdocs/milkyway/application/model/member/Basic.php:27]
+---------------------------------------------------------------
+[ 2019-05-17T11:05:19+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.038270s][吞吐率：26.13req/s] [内存消耗：3,141.70kb] [文件加载：44]
+[ error ] [1]Class 'Firebase\JWT\JWT' not found[/Applications/MAMP/htdocs/milkyway/application/model/member/Basic.php:27]
+---------------------------------------------------------------
+[ 2019-05-17T11:06:20+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.045421s][吞吐率：22.02req/s] [内存消耗：3,141.73kb] [文件加载：44]
+[ error ] [1]Class 'jwt\JWT\JWT' not found[/Applications/MAMP/htdocs/milkyway/application/model/member/Basic.php:27]
+---------------------------------------------------------------
+[ 2019-05-17T11:14:37+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/test [运行时间：0.032388s][吞吐率：30.88req/s] [内存消耗：1,754.70kb] [文件加载：35]
+[ error ] [2]in_array() expects parameter 2 to be array, string given[/Applications/MAMP/htdocs/milkyway/application/core/ManagerController.php:35]
+---------------------------------------------------------------
+[ 2019-05-17T11:15:18+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/test [运行时间：0.039205s][吞吐率：25.51req/s] [内存消耗：3,210.13kb] [文件加载：45]
+[ error ] [1]Cannot use object of type stdClass as array[/Applications/MAMP/htdocs/milkyway/application/core/ManagerController.php:51]
+---------------------------------------------------------------
+[ 2019-05-17T11:17:20+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/test [运行时间：0.041616s][吞吐率：24.03req/s] [内存消耗：3,209.21kb] [文件加载：46]
+[ error ] [2]json_decode() expects parameter 1 to be string, object given[/Applications/MAMP/htdocs/milkyway/application/core/ManagerController.php:50]
+---------------------------------------------------------------
+[ 2019-05-17T11:19:39+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/test [运行时间：0.040302s][吞吐率：24.81req/s] [内存消耗：3,196.51kb] [文件加载：45]
+[ error ] [8]未定义数组索引: user_id[/Applications/MAMP/htdocs/milkyway/application/core/ManagerController.php:51]
+---------------------------------------------------------------
+[ 2019-05-17T11:20:33+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/test [运行时间：0.039243s][吞吐率：25.48req/s] [内存消耗：3,212.24kb] [文件加载：45]
+[ error ] [1]Class 'Firebase\JWT\BeforeValidException' not found[/Applications/MAMP/htdocs/milkyway/extend/jwt/JWT.php:118]
+---------------------------------------------------------------
+[ 2019-05-17T11:28:03+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/test [运行时间：0.037986s][吞吐率：26.33req/s] [内存消耗：3,192.07kb] [文件加载：46]
+[ error ] [0]Cannot handle token prior to 2019-05-17T11:29:55+0800[/Applications/MAMP/htdocs/milkyway/extend/jwt/JWT.php:121]
+---------------------------------------------------------------
+[ 2019-05-17T11:28:45+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/test [运行时间：0.046442s][吞吐率：21.53req/s] [内存消耗：3,192.07kb] [文件加载：46]
+[ error ] [0]Cannot handle token prior to 2019-05-17T11:30:30+0800[/Applications/MAMP/htdocs/milkyway/extend/jwt/JWT.php:121]
+---------------------------------------------------------------
+[ 2019-05-17T11:29:49+08:00 ] ::1 ::1 GET /index.php?s=manager/logon/test
+[ error ] [0]Cannot handle token prior to 2019-05-17T11:30:30+0800
+---------------------------------------------------------------
+[ 2019-05-17T12:06:16+08:00 ] ::1 ::1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.091788s][吞吐率：10.89req/s] [内存消耗：3,419.02kb] [文件加载：47]
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-05-17T12:07:13+08:00 ] ::1 ::1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.080624s][吞吐率：12.40req/s] [内存消耗：3,440.78kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001588s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'admin' [ RunTime:0.008467s ]
+---------------------------------------------------------------
+[ 2019-05-17T12:07:27+08:00 ] ::1 ::1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.067561s][吞吐率：14.80req/s] [内存消耗：3,441.93kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000751s ]
+---------------------------------------------------------------
+[ 2019-05-17T14:54:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.077908s][吞吐率：12.84req/s] [内存消耗：3,428.49kb] [文件加载：48]
+[ error ] [0]method not exist:think\db\Query->getOneByName[/Applications/MAMP/htdocs/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2019-05-17T14:55:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.052990s][吞吐率：18.87req/s] [内存消耗：3,450.09kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001370s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.001467s ]
+---------------------------------------------------------------
+[ 2019-05-17T14:56:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.062251s][吞吐率：16.06req/s] [内存消耗：3,226.20kb] [文件加载：46]
+[ error ] [0]Cannot handle token prior to 2019-05-17T14:57:01+0800[/Applications/MAMP/htdocs/milkyway/extend/jwt/JWT.php:121]
+---------------------------------------------------------------
+[ 2019-05-17T14:57:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.058407s][吞吐率：17.12req/s] [内存消耗：3,450.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000815s ]
+---------------------------------------------------------------
+[ 2019-05-17T14:57:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.049990s][吞吐率：20.00req/s] [内存消耗：3,226.46kb] [文件加载：46]
+[ error ] [0]Cannot handle token prior to 2019-05-17T14:59:07+0800[/Applications/MAMP/htdocs/milkyway/extend/jwt/JWT.php:121]
+---------------------------------------------------------------
+[ 2019-05-17T14:57:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.058038s][吞吐率：17.23req/s] [内存消耗：3,226.61kb] [文件加载：46]
+[ error ] [0]Cannot handle token prior to 2019-05-17T14:59:07+0800[/Applications/MAMP/htdocs/milkyway/extend/jwt/JWT.php:121]
+---------------------------------------------------------------
+[ 2019-05-17T14:58:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.043274s][吞吐率：23.11req/s] [内存消耗：3,450.01kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000554s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000780s ]
+---------------------------------------------------------------
+[ 2019-05-17T14:58:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.039036s][吞吐率：25.62req/s] [内存消耗：3,226.46kb] [文件加载：46]
+[ error ] [0]Cannot handle token prior to 2019-05-17T15:00:10+0800[/Applications/MAMP/htdocs/milkyway/extend/jwt/JWT.php:121]
+---------------------------------------------------------------
+[ 2019-05-17T15:00:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.040048s][吞吐率：24.97req/s] [内存消耗：3,449.68kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000645s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:02:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.045109s][吞吐率：22.17req/s] [内存消耗：3,505.35kb] [文件加载：50]
+[ error ] [2]Invalid argument supplied for foreach()[/Applications/MAMP/htdocs/milkyway/application/model/member/Basic.php:95]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000656s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:03:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.053532s][吞吐率：18.68req/s] [内存消耗：3,502.73kb] [文件加载：51]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:04:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.047699s][吞吐率：20.96req/s] [内存消耗：3,446.67kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000665s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6InVzZXIiLCJpYXQiOjE1NTgwNzY2NDAsIm5iZiI6IiIsImV4cCI6MTU1ODA4Mzg0MCwidXNlcl9pZCI6MX0.NQBh3fl_4Y6boJUTW5nJgyefyfq9ucRnC2qWSUr0LZw' WHERE `user_id`='1' [ RunTime:0.008607s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:07:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.056290s][吞吐率：17.77req/s] [内存消耗：3,521.17kb] [文件加载：51]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000441s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-17T15:07:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.046244s][吞吐率：21.62req/s] [内存消耗：3,521.44kb] [文件加载：51]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-17T15:07:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.042042s][吞吐率：23.79req/s] [内存消耗：3,521.17kb] [文件加载：51]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-17T15:08:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.045598s][吞吐率：21.93req/s] [内存消耗：3,531.61kb] [文件加载：51]
+[ error ] [10501]SQLSTATE[HY093]: Invalid parameter number[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id from `user` where username = 'admin123' [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:09:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.036182s][吞吐率：27.64req/s] [内存消耗：3,362.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id from `user` where username = 'admin123' [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:10:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/add
+[ info ] dev.milkyway.xb/index.php?s=manager/user/add [运行时间：0.051613s][吞吐率：19.37req/s] [内存消耗：3,470.35kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000555s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id from `user` where username = 'admin123' [ RunTime:0.000498s ]
+[ sql ] [ SQL ] insert into `user` (username,password,salt,mobile,email,ip,token,date_added)
+                values ('admin123','f5e525498b1a14040f384f5f6fe8cf07','336563','18109281870','505761679@qq.com','127.0.0.1','eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6InVzZXIiLCJpYXQiOjE1NTgwNzY2NDAsIm5iZiI6IiIsImV4cCI6MTU1ODA4Mzg0MCwidXNlcl9pZCI6MX0.NQBh3fl_4Y6boJUTW5nJgyefyfq9ucRnC2qWSUr0LZw','2019-05-17 15:10:35') [ RunTime:0.002473s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:15:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/edit
+[ info ] dev.milkyway.xb/index.php?s=manager/user/edit [运行时间：0.044351s][吞吐率：22.55req/s] [内存消耗：3,522.08kb] [文件加载：51]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-17T15:15:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/edit
+[ info ] dev.milkyway.xb/index.php?s=manager/user/edit [运行时间：0.058616s][吞吐率：17.06req/s] [内存消耗：3,466.99kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id from `user` where username = 'admin' [ RunTime:0.000469s ]
+[ sql ] [ SQL ] UPDATE `user` SET `username`='admin',`mobile`='18109281870',`email`='505761679@qq.com' WHERE `user_id`='2' [ RunTime:0.004640s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:15:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/edit
+[ info ] dev.milkyway.xb/index.php?s=manager/user/edit [运行时间：0.043394s][吞吐率：23.04req/s] [内存消耗：3,466.38kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id from `user` where username = 'admin1' [ RunTime:0.000437s ]
+[ sql ] [ SQL ] UPDATE `user` SET `username`='admin1',`mobile`='18109281870',`email`='505761679@qq.com' WHERE `user_id`='2' [ RunTime:0.000818s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:16:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/del
+[ info ] dev.milkyway.xb/index.php?s=manager/user/del [运行时间：0.042703s][吞吐率：23.42req/s] [内存消耗：3,306.93kb] [文件加载：50]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-17T15:17:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/del
+[ info ] dev.milkyway.xb/index.php?s=manager/user/del [运行时间：0.041433s][吞吐率：24.14req/s] [内存消耗：3,308.51kb] [文件加载：50]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id from `user` where user_id = '2' [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2019-05-17T15:17:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/user/del
+[ info ] dev.milkyway.xb/index.php?s=manager/user/del [运行时间：0.041354s][吞吐率：24.18req/s] [内存消耗：3,251.27kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id from `user` where user_id = '2' [ RunTime:0.000701s ]
+[ sql ] [ SQL ] delete from `user` where user_id = '2' [ RunTime:0.001403s ]
+---------------------------------------------------------------
+[ 2019-05-17T16:17:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.094396s][吞吐率：10.59req/s] [内存消耗：3,446.48kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001637s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.002086s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6InVzZXIiLCJpYXQiOjE1NTgwODEwNzEsIm5iZiI6IiIsImV4cCI6MTU1ODA4ODI3MSwidXNlcl9pZCI6MX0.lCVJKRwxPSn815gY2KyxGLWBl0mrIg1WM5n1yRM-Mkw' WHERE `user_id`='1' [ RunTime:0.004457s ]

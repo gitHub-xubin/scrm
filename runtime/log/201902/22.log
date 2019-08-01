@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2019-02-22T14:12:49+08:00 ] ::1 ::1 POST /index.php?s=client/bili/update
+[ error ] [2]file(file): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2019-02-22T15:06:31+08:00 ] ::1 ::1 POST /index.php?s=client/bili/update
+[ error ] [2]curl_setopt(): supplied argument is not a valid File-Handle resource
+---------------------------------------------------------------
+[ 2019-02-22T15:14:07+08:00 ] ::1 ::1 POST /index.php?s=client/bili/update
+[ error ] [2]curl_setopt(): supplied argument is not a valid File-Handle resource
+---------------------------------------------------------------
+[ 2019-02-22T15:18:38+08:00 ] ::1 ::1 POST /index.php?s=client/bili/update
+[ error ] [2]curl_setopt(): supplied argument is not a valid File-Handle resource
+---------------------------------------------------------------
+[ 2019-02-22T17:04:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=client/bili/update
+[ error ] [2]CURLFile::__construct() expects parameter 1 to be a valid path, string given

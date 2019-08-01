@@ -1,0 +1,155 @@
+---------------------------------------------------------------
+[ 2019-06-17T15:03:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：6.781572s][吞吐率：0.15req/s] [内存消耗：4,346.63kb] [文件加载：53]
+[ error ] [10502]Error occurred  when binding parameters '2'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:511]
+[ sql ] [ DB ] CONNECT:[ UseTime:6.653638s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+---------------------------------------------------------------
+[ 2019-06-17T15:03:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.353754s][吞吐率：2.83req/s] [内存消耗：4,286.23kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124587s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,username as userName,email,password,salt from `user` where email = '505761679@qq.com' [ RunTime:0.082818s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDc1NTAyNSwibmJmIjoiIiwiZXhwIjoxNTYwNzYyMjI1LCJ1c2VyX2lkIjoxfQ.LeiGBM2MwiWOebEZYcKuD8pGZQEHjZmEZSRCYIMlC_k' WHERE `user_id`='1' [ RunTime:0.084591s ]
+---------------------------------------------------------------
+[ 2019-06-17T15:55:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/user/addteam [运行时间：0.114958s][吞吐率：8.70req/s] [内存消耗：4,091.26kb] [文件加载：48]
+[ error ] [0]Key may not be empty[/Applications/MAMP/htdocs/scrm/extend/jwt/JWT.php:77]
+---------------------------------------------------------------
+[ 2019-06-17T15:58:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.275324s][吞吐率：3.63req/s] [内存消耗：4,349.15kb] [文件加载：53]
+[ error ] [8]未定义数组索引: store_id[/Applications/MAMP/htdocs/scrm/application/model/member/Basic.php:27]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125401s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,username as userName,email,password,salt from `user` where email = '505761679@qq.com' [ RunTime:0.077946s ]
+---------------------------------------------------------------
+[ 2019-06-17T15:58:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.438094s][吞吐率：2.28req/s] [内存消耗：4,290.82kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122622s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,store_id,username as userName,email,password,salt from `user` where email = '505761679@qq.com' [ RunTime:0.080162s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDc1ODMyNCwibmJmIjoiIiwiZXhwIjoxNTYwNzY1NTI0LCJ1c2VyX2lkIjoxLCJzdG9yZV9pZCI6MX0.ygMSeY1FbZEjlbVkCU5d_P2dGLxw2hX1nP8Tac2meYE' WHERE `user_id`='1' [ RunTime:0.164049s ]
+---------------------------------------------------------------
+[ 2019-06-17T15:59:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/user/addteam [运行时间：0.296345s][吞吐率：3.37req/s] [内存消耗：4,117.80kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134444s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] insert into `team` (store_id,name) values ('1','小组一') [ RunTime:0.093457s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:05:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.267369s][吞吐率：3.74req/s] [内存消耗：4,070.25kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127199s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] insert into `team` (store_id,name) values ('1','小组一') [ RunTime:0.089148s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:37:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.220903s][吞吐率：4.53req/s] [内存消耗：4,174.85kb] [文件加载：53]
+[ error ] [8]未定义数组下标: 1[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:503]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122771s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+---------------------------------------------------------------
+[ 2019-06-17T16:39:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.415276s][吞吐率：2.41req/s] [内存消耗：4,175.95kb] [文件加载：53]
+[ error ] [8]未定义数组下标: 1[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:503]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125982s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组一' and store_id = '1' [ RunTime:0.085779s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:39:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.242730s][吞吐率：4.12req/s] [内存消耗：4,014.23kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.116362s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组一' and store_id = '1' [ RunTime:0.076524s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:40:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.252525s][吞吐率：3.96req/s] [内存消耗：4,013.20kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119630s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组一' and store_id = '1' [ RunTime:0.079603s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:41:26+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.294639s][吞吐率：3.39req/s] [内存消耗：4,123.66kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134009s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组一' and store_id = '1' [ RunTime:0.087229s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:41:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.401118s][吞吐率：2.49req/s] [内存消耗：4,175.97kb] [文件加载：53]
+[ error ] [8]未定义数组下标: 1[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:503]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122518s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组二' and store_id = '1' [ RunTime:0.083334s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:42:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.375102s][吞吐率：2.67req/s] [内存消耗：4,122.27kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124931s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组二' and store_id = '1' [ RunTime:0.082444s ]
+[ sql ] [ SQL ] insert into `team` (store_id,name) values ('1','小组二') [ RunTime:0.086832s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:48:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.239258s][吞吐率：4.18req/s] [内存消耗：4,176.33kb] [文件加载：54]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'andstore_id = '1'' at line 1[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122034s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+---------------------------------------------------------------
+[ 2019-06-17T16:48:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.269846s][吞吐率：3.71req/s] [内存消耗：4,122.74kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129864s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组二' and store_id = '1' [ RunTime:0.085939s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:48:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addteam
+[ info ] dev.scrm.com/index.php?s=merchant/team/addteam [运行时间：0.427895s][吞吐率：2.34req/s] [内存消耗：4,121.11kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126484s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '小组三' and store_id = '1' [ RunTime:0.083752s ]
+[ sql ] [ SQL ] insert into `team` (store_id,name) values ('1','小组三') [ RunTime:0.167387s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:55:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.296746s][吞吐率：3.37req/s] [内存消耗：4,291.45kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127496s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,store_id,username as userName,email,password,salt from `user` where email = '50576179@qq.com' [ RunTime:0.084538s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:55:56+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.236901s][吞吐率：4.22req/s] [内存消耗：4,183.31kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.110994s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,store_id,username as userName,email,password,salt from `user` where email = '50576179@qq.com' [ RunTime:0.072910s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:56:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.245938s][吞吐率：4.07req/s] [内存消耗：4,291.45kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.118302s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,store_id,username as userName,email,password,salt from `user` where email = '50576179@qq.com' [ RunTime:0.076522s ]
+---------------------------------------------------------------
+[ 2019-06-17T16:56:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.691686s][吞吐率：1.45req/s] [内存消耗：4,289.89kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128666s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,store_id,username as userName,email,password,salt from `user` where email = '505761679@qq.com' [ RunTime:0.084693s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDc2MTc3NiwibmJmIjoiIiwiZXhwIjoxNTYwNzY4OTc2LCJ1c2VyX2lkIjoxLCJzdG9yZV9pZCI6MX0.XY-8oj_-3s6zQPHw1HFvN70SgEUgyul0eqSFt2Eehhs' WHERE `user_id`='1' [ RunTime:0.412186s ]
+---------------------------------------------------------------
+[ 2019-06-17T17:10:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/edit
+[ info ] dev.scrm.com/index.php?s=merchant/team/edit [运行时间：0.300652s][吞吐率：3.33req/s] [内存消耗：4,133.65kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132419s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where team_id = 'teamId' and store_id = '1' [ RunTime:0.087046s ]
+---------------------------------------------------------------
+[ 2019-06-17T17:13:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/edit
+[ info ] dev.scrm.com/index.php?s=merchant/team/edit [运行时间：0.574150s][吞吐率：1.74req/s] [内存消耗：4,189.72kb] [文件加载：54]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124228s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where team_id = '1' and store_id = '1' [ RunTime:0.084746s ]
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '微博组' and store_id = '1' [ RunTime:0.164403s ]
+---------------------------------------------------------------
+[ 2019-06-17T17:14:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/edit
+[ info ] dev.scrm.com/index.php?s=merchant/team/edit [运行时间：0.632875s][吞吐率：1.58req/s] [内存消耗：4,132.58kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131971s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where team_id = '1' and store_id = '1' [ RunTime:0.085198s ]
+[ sql ] [ SQL ] select team_id,store_id,name from `team` where name = '微博组' and store_id = '1' [ RunTime:0.165641s ]
+[ sql ] [ SQL ] UPDATE `team` SET `name`='微博组' WHERE `team_id`='1' [ RunTime:0.171800s ]
+---------------------------------------------------------------
+[ 2019-06-17T17:44:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addChildAccount
+[ info ] dev.scrm.com/index.php?s=merchant/team/addChildAccount [运行时间：0.078694s][吞吐率：12.71req/s] [内存消耗：4,298.98kb] [文件加载：52]
+[ error ] [8]未定义数组索引: email[/Applications/MAMP/htdocs/scrm/application/model/member/Basic.php:73]
+---------------------------------------------------------------
+[ 2019-06-17T17:44:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addChildAccount
+[ info ] dev.scrm.com/index.php?s=merchant/team/addChildAccount [运行时间：0.149081s][吞吐率：6.71req/s] [内存消耗：4,299.43kb] [文件加载：52]
+[ error ] [8]未定义数组索引: ip[/Applications/MAMP/htdocs/scrm/application/model/member/Basic.php:73]
+---------------------------------------------------------------
+[ 2019-06-17T17:45:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addChildAccount
+[ info ] dev.scrm.com/index.php?s=merchant/team/addChildAccount [运行时间：0.094417s][吞吐率：10.59req/s] [内存消耗：4,299.43kb] [文件加载：52]
+[ error ] [8]未定义数组索引: ip[/Applications/MAMP/htdocs/scrm/application/model/member/Basic.php:73]
+---------------------------------------------------------------
+[ 2019-06-17T17:46:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addChildAccount
+[ info ] dev.scrm.com/index.php?s=merchant/team/addChildAccount [运行时间：0.297550s][吞吐率：3.36req/s] [内存消耗：4,305.84kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125090s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] insert into `user` (store_id,username,password,salt,email,ip,date_added,master)
+                values ('1','zhangsan','ce62e4e30a418dd1be7e7489d545d310','938951','123@qq.com','','2019-06-17 17:46:13','2') [ RunTime:0.086081s ]
+---------------------------------------------------------------
+[ 2019-06-17T18:07:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/addChildAccount
+[ info ] dev.scrm.com/index.php?s=merchant/team/addChildAccount [运行时间：0.342975s][吞吐率：2.92req/s] [内存消耗：4,307.13kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126548s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] insert into `user` (store_id,username,password,salt,email,ip,date_added,master,team_id)
+                values ('1','zhangsan','9db03a9b95efd9ab8734515ea8856d77','157860','123@qq.com','','2019-06-17 18:07:00','2','1') [ RunTime:0.087529s ]

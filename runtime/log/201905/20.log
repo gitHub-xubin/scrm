@@ -1,0 +1,103 @@
+---------------------------------------------------------------
+[ 2019-05-20T17:15:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.103063s][吞吐率：9.70req/s] [内存消耗：3,446.78kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002907s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.008605s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6InVzZXIiLCJpYXQiOjE1NTgzNDM3NDMsIm5iZiI6IiIsImV4cCI6MTU1ODM1MDk0MywidXNlcl9pZCI6MX0.EB2UChLkU31doTADiMlTJTWp_aL4wQgZZKndo_zzWhc' WHERE `user_id`='1' [ RunTime:0.004644s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:16:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.064374s][吞吐率：15.53req/s] [内存消耗：3,446.79kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000843s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6InVzZXIiLCJpYXQiOjE1NTgzNDM4MDMsIm5iZiI6IiIsImV4cCI6MTU1ODM1MTAwMywidXNlcl9pZCI6MX0.sUVFBvOJ8QSNljvrH25Mmoly-nS4BLcFLCoX6hNk5bo' WHERE `user_id`='1' [ RunTime:0.000647s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:18:56+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.085681s][吞吐率：11.67req/s] [内存消耗：3,562.46kb] [文件加载：52]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'auth_status' doesn't have a default value[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-20T17:21:16+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.077110s][吞吐率：12.97req/s] [内存消耗：3,554.60kb] [文件加载：52]
+[ error ] [10501]SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-20T17:21:29+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.061209s][吞吐率：16.34req/s] [内存消耗：3,488.36kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] insert into `account` (user_id,account_platform_id,a_name,auth,auth_status,date_added,date_modified)
+                    values ('1','1','张三的百家号','{\"app_id\":\"1633476652893450\",\"app_token\":\"sadasadwEAWDDWAWdadawdsa\"}','1','2019-05-20 17:21:29','2019-05-20 17:21:29') [ RunTime:0.005572s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:23:03+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.087258s][吞吐率：11.46req/s] [内存消耗：3,501.16kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] insert into `account` (user_id,account_platform_id,a_name,auth,auth_status,date_added,date_modified)
+                    values ('1','1','张三的百家号','{\"app_id\":\"1633476652893450\",\"app_token\":\"sadasadwEAWDDWAWdadawdsa\"}','1','2019-05-20 17:23:03','2019-05-20 17:23:03') [ RunTime:0.001284s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:36:41+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.087591s][吞吐率：11.42req/s] [内存消耗：3,557.54kb] [文件加载：52]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000489s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+---------------------------------------------------------------
+[ 2019-05-20T17:36:59+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.060404s][吞吐率：16.56req/s] [内存消耗：3,506.17kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.003606s ]
+[ sql ] [ SQL ] insert into `account` (user_id,account_platform_id,a_name,auth,auth_status,date_added,date_modified)
+                    values ('1','1','张三的百家号','{\"app_id\":\"1633476652893450\",\"app_token\":\"sadasadwEAWDDWAWdadawdsa\"}','1','2019-05-20 17:36:59','2019-05-20 17:36:59') [ RunTime:0.002697s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:37:01+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.052010s][吞吐率：19.23req/s] [内存消耗：3,559.38kb] [文件加载：51]
+[ error ] [2]Illegal string offset 'auth'[/Applications/MAMP/htdocs/milkyway/application/manager/controller/Account.php:67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000672s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:37:55+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.046578s][吞吐率：21.47req/s] [内存消耗：3,397.58kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:38:23+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.058045s][吞吐率：17.23req/s] [内存消耗：3,559.50kb] [文件加载：51]
+[ error ] [2]Illegal string offset 'auth'[/Applications/MAMP/htdocs/milkyway/application/manager/controller/Account.php:68]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:40:22+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.080772s][吞吐率：12.38req/s] [内存消耗：3,582.48kb] [文件加载：51]
+[ error ] [1]Cannot use object of type stdClass as array[/Applications/MAMP/htdocs/milkyway/application/manager/controller/Account.php:69]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:40:50+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.058934s][吞吐率：16.97req/s] [内存消耗：3,505.94kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:41:22+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.043373s][吞吐率：23.06req/s] [内存消耗：3,505.98kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:46:03+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.070443s][吞吐率：14.20req/s] [内存消耗：3,506.03kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:46:40+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.059232s][吞吐率：16.88req/s] [内存消耗：3,508.30kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000429s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] insert into `account` (user_id,account_platform_id,a_name,auth,auth_status,date_added,date_modified)
+                    values ('1','1','张三的百家号','{\"app_id\":\"1633476652893450\",\"app_token\":\"sadasadwEAWDDWAWdadawdsa\"}','1','2019-05-20 17:46:40','2019-05-20 17:46:40') [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:46:44+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.043169s][吞吐率：23.16req/s] [内存消耗：3,508.16kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] insert into `account` (user_id,account_platform_id,a_name,auth,auth_status,date_added,date_modified)
+                    values ('1','1','张三的百家号','{\"app_id\":\"16334766528934501\",\"app_token\":\"sadasadwEAWDDWAWdadawdsa\"}','1','2019-05-20 17:46:44','2019-05-20 17:46:44') [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2019-05-20T17:46:51+08:00 ] ::1 ::1 POST /index.php?s=manager/account/addaccount
+[ info ] dev.milkyway.xb/index.php?s=manager/account/addaccount [运行时间：0.042254s][吞吐率：23.67req/s] [内存消耗：3,506.31kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000310s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select account_id,auth from `account` where account_platform_id = 1 [ RunTime:0.000610s ]

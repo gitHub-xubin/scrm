@@ -1,0 +1,44 @@
+---------------------------------------------------------------
+[ 2019-06-18T10:41:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：12.439976s][吞吐率：0.08req/s] [内存消耗：4,290.44kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:12.143739s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,store_id,username as userName,email,password,salt from `user` where email = '505761679@qq.com' [ RunTime:0.093651s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDgyNTY5MywibmJmIjoiIiwiZXhwIjoxNTYwODMyODkzLCJ1c2VyX2lkIjoxLCJzdG9yZV9pZCI6MX0.LodcEJhSUGfRkFSS6TWfkpWn8C9MzSXEiw_h6uvC488',`ip`='127.0.0.1' WHERE `user_id`='1' [ RunTime:0.097649s ]
+---------------------------------------------------------------
+[ 2019-06-18T10:45:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/teamList
+[ info ] dev.scrm.com/index.php?s=merchant/team/teamList [运行时间：0.097586s][吞吐率：10.25req/s] [内存消耗：4,127.20kb] [文件加载：51]
+[ error ] [0]method not exist:think\db\Query->getTeamList[/Applications/MAMP/htdocs/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2019-06-18T10:45:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/team/teamList
+[ info ] dev.scrm.com/index.php?s=merchant/team/teamList [运行时间：0.258905s][吞吐率：3.86req/s] [内存消耗：4,137.75kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.112034s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select team_id,name from `team` where  store_id = '1' [ RunTime:0.073746s ]
+---------------------------------------------------------------
+[ 2019-06-18T11:13:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/childAccountList
+[ info ] dev.scrm.com/index.php?s=merchant/team/childAccountList [运行时间：0.313170s][吞吐率：3.19req/s] [内存消耗：4,143.16kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137142s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user`  where store_id = 1 and master = 0 [ RunTime:0.090788s ]
+---------------------------------------------------------------
+[ 2019-06-18T11:16:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/childAccountList
+[ info ] dev.scrm.com/index.php?s=merchant/team/childAccountList [运行时间：0.427530s][吞吐率：2.34req/s] [内存消耗：4,147.45kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119320s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user`  where store_id = 1 and master = 2 [ RunTime:0.077901s ]
+[ sql ] [ SQL ] SELECT user_id,username,user_group_id,email,date_added,team_id FROM `user`  where store_id = 1 and master = 2 order by user_id DESC limit 0, 10 [ RunTime:0.156606s ]
+---------------------------------------------------------------
+[ 2019-06-18T11:17:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/childAccountList
+[ info ] dev.scrm.com/index.php?s=merchant/team/childAccountList [运行时间：0.438032s][吞吐率：2.28req/s] [内存消耗：4,148.73kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128238s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user`  where store_id = 1 and master = 2 [ RunTime:0.083997s ]
+[ sql ] [ SQL ] SELECT user_id,username,user_group_id,email,date_added,team_id FROM `user`  where store_id = 1 and master = 2 order by user_id DESC limit 0, 10 [ RunTime:0.165486s ]
+---------------------------------------------------------------
+[ 2019-06-18T11:17:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/team/childAccountList
+[ info ] dev.scrm.com/index.php?s=merchant/team/childAccountList [运行时间：0.511221s][吞吐率：1.96req/s] [内存消耗：4,148.98kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.172244s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user`  where store_id = 1 and master = 2 [ RunTime:0.092270s ]
+[ sql ] [ SQL ] SELECT user_id,username,user_group_id,email,date_added,team_id FROM `user`  where store_id = 1 and master = 2 order by user_id DESC limit 0, 10 [ RunTime:0.195901s ]
+---------------------------------------------------------------
+[ 2019-06-18T17:05:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：12.278261s][吞吐率：0.08req/s] [内存消耗：4,461.96kb] [文件加载：55]
+[ sql ] [ DB ] CONNECT:[ UseTime:11.902617s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络1' [ RunTime:0.094366s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络1') [ RunTime:0.094763s ]

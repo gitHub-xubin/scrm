@@ -1,0 +1,71 @@
+---------------------------------------------------------------
+[ 2019-05-21T15:32:11+08:00 ] ::1 ::1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.132542s][吞吐率：7.54req/s] [内存消耗：3,446.47kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000496s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.005959s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6InVzZXIiLCJpYXQiOjE1NTg0MjM5MzEsIm5iZiI6IiIsImV4cCI6MTU1ODQzMTEzMSwidXNlcl9pZCI6MX0.6uwfIGuf131-PmcQq5wULA4Bq5umheWt77w0MTWhz2c' WHERE `user_id`='1' [ RunTime:0.002708s ]
+---------------------------------------------------------------
+[ 2019-05-21T15:34:03+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.125632s][吞吐率：7.96req/s] [内存消耗：3,368.96kb] [文件加载：51]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:388]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user` [ RunTime:0.006226s ]
+---------------------------------------------------------------
+[ 2019-05-21T15:34:48+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.064206s][吞吐率：15.57req/s] [内存消耗：3,316.29kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT username,mobile,email,date_added FROM `user`  order by user_id DESC limit 0, 10 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2019-05-21T15:36:07+08:00 ] ::1 ::1 POST /index.php?s=manager/logon/logon
+[ info ] dev.milkyway.xb/index.php?s=manager/logon/logon [运行时间：0.100650s][吞吐率：9.94req/s] [内存消耗：3,446.48kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = 'user' [ RunTime:0.000689s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6InVzZXIiLCJpYXQiOjE1NTg0MjQxNjcsIm5iZiI6IiIsImV4cCI6MTU1ODQzMTM2NywidXNlcl9pZCI6MX0.N6o0WxZSiM6HkqzkjKlKIo0772yskfqjU3If_NBLFrE' WHERE `user_id`='1' [ RunTime:0.004492s ]
+---------------------------------------------------------------
+[ 2019-05-21T15:36:50+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.065422s][吞吐率：15.29req/s] [内存消耗：3,316.29kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user` [ RunTime:0.002216s ]
+[ sql ] [ SQL ] SELECT username,mobile,email,date_added FROM `user`  order by user_id DESC limit 0, 10 [ RunTime:0.001598s ]
+---------------------------------------------------------------
+[ 2019-05-21T15:39:49+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.078601s][吞吐率：12.72req/s] [内存消耗：3,314.09kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user`  where (username like '%{username}%') [ RunTime:0.008427s ]
+---------------------------------------------------------------
+[ 2019-05-21T15:40:49+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.055697s][吞吐率：17.95req/s] [内存消耗：3,317.07kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000282s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user`  where (username like '%user%') [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT username,mobile,email,date_added FROM `user`  where (username like '%user%') order by user_id DESC limit 0, 10 [ RunTime:0.000959s ]
+---------------------------------------------------------------
+[ 2019-05-21T16:08:22+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.055393s][吞吐率：18.05req/s] [内存消耗：3,253.02kb] [文件加载：48]
+[ error ] [8]未定义数组索引: exp[/Applications/MAMP/htdocs/milkyway/application/core/ManagerController.php:49]
+---------------------------------------------------------------
+[ 2019-05-21T16:09:07+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.043670s][吞吐率：22.90req/s] [内存消耗：3,252.78kb] [文件加载：48]
+[ error ] [8]未定义数组下标: 0[/Applications/MAMP/htdocs/milkyway/application/core/ManagerController.php:48]
+---------------------------------------------------------------
+[ 2019-05-21T16:10:46+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.056131s][吞吐率：17.82req/s] [内存消耗：3,316.05kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001169s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user` [ RunTime:0.005517s ]
+[ sql ] [ SQL ] SELECT username,mobile,email,date_added FROM `user`  order by user_id DESC limit 0, 10 [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2019-05-21T16:11:05+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.046132s][吞吐率：21.68req/s] [内存消耗：3,252.81kb] [文件加载：48]
+[ error ] [8]未定义数组索引: exp[/Applications/MAMP/htdocs/milkyway/application/core/ManagerController.php:49]
+---------------------------------------------------------------
+[ 2019-05-21T16:12:30+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.039116s][吞吐率：25.56req/s] [内存消耗：3,315.91kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001279s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user` [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SELECT username,mobile,email,date_added FROM `user`  order by user_id DESC limit 0, 10 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2019-05-21T16:12:57+08:00 ] ::1 ::1 POST /index.php?s=manager/user/userList
+[ info ] dev.milkyway.xb/index.php?s=manager/user/userList [运行时间：0.041442s][吞吐率：24.13req/s] [内存消耗：3,315.77kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001210s ] mysql:host=localhost;dbname=milkyway;charset=utf8
+[ sql ] [ SQL ] SELECT count(*) as `count` FROM `user` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT username,mobile,email,date_added FROM `user`  order by user_id DESC limit 0, 10 [ RunTime:0.000337s ]

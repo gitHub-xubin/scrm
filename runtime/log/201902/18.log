@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2019-02-18T15:50:08+08:00 ] ::1 ::1 POST /index.php?s=client/xigua/getResult
+[ error ] [4]语法错误: unexpected '{'
+---------------------------------------------------------------
+[ 2019-02-18T15:55:24+08:00 ] ::1 ::1 POST /index.php?s=client/xigua/getResult
+[ error ] [4]语法错误: unexpected '{'
+---------------------------------------------------------------
+[ 2019-02-18T17:24:04+08:00 ] ::1 ::1 POST /index.php?s=client/xigua/getResult
+[ error ] [2]curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER argument
+---------------------------------------------------------------
+[ 2019-02-18T18:37:20+08:00 ] ::1 ::1 POST /index.php?s=client/xigua/getVideoUploadParams
+[ error ] [8]未定义数组索引: data

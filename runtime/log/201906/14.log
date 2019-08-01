@@ -1,0 +1,198 @@
+---------------------------------------------------------------
+[ 2019-06-14T11:49:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：8.335746s][吞吐率：0.12req/s] [内存消耗：1,857.66kb] [文件加载：32]
+[ sql ] [ DB ] CONNECT:[ UseTime:8.182926s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] insert into `team` (team_id,store_id,name)values (1,1,'zhang') [ RunTime:0.086886s ]
+---------------------------------------------------------------
+[ 2019-06-14T15:53:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/logon/sendMail
+[ info ] dev.scrm.com/index.php?s=merchant/logon/sendMail [运行时间：0.064465s][吞吐率：15.51req/s] [内存消耗：1,772.99kb] [文件加载：34]
+[ error ] [1]Class 'PHPMailer' not found[/Applications/MAMP/htdocs/scrm/application/common.php:13]
+---------------------------------------------------------------
+[ 2019-06-14T15:53:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/logon/sendMail
+[ info ] dev.scrm.com/index.php?s=merchant/logon/sendMail [运行时间：0.042979s][吞吐率：23.27req/s] [内存消耗：1,772.96kb] [文件加载：34]
+[ error ] [1]Class 'PHPMailer' not found[/Applications/MAMP/htdocs/scrm/application/common.php:13]
+---------------------------------------------------------------
+[ 2019-06-14T15:57:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/logon/sendMail
+[ info ] dev.scrm.com/index.php?s=merchant/logon/sendMail [运行时间：0.091950s][吞吐率：10.88req/s] [内存消耗：2,059.34kb] [文件加载：35]
+[ error ] [1]Call to undefined method PHPMailer::SetFrom()[/Applications/MAMP/htdocs/scrm/application/common.php:24]
+---------------------------------------------------------------
+[ 2019-06-14T16:02:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/logon/sendMail
+[ info ] dev.scrm.com/index.php?s=merchant/logon/sendMail [运行时间：0.079299s][吞吐率：12.61req/s] [内存消耗：2,055.38kb] [文件加载：35]
+[ error ] [2]include_once(class.smtp.php): failed to open stream: No such file or directory[/Applications/MAMP/htdocs/scrm/extend/PHPMailer/class.phpmailer.php:515]
+---------------------------------------------------------------
+[ 2019-06-14T16:10:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/logon/sendMail
+[ info ] dev.scrm.com/index.php?s=merchant/logon/sendMail [运行时间：0.083706s][吞吐率：11.95req/s] [内存消耗：1,773.12kb] [文件加载：34]
+[ error ] [1]Class 'PHPMailer\PHPMailer\PHPMailer' not found[/Applications/MAMP/htdocs/scrm/application/common.php:16]
+---------------------------------------------------------------
+[ 2019-06-14T16:11:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=merchant/logon/sendMail
+[ info ] dev.scrm.com/index.php?s=merchant/logon/sendMail [运行时间：0.092192s][吞吐率：10.85req/s] [内存消耗：2,452.26kb] [文件加载：35]
+[ error ] [1]Class 'PHPMailer\PHPMailer\SMTP' not found[/Applications/MAMP/htdocs/scrm/extend/PHPMailer/src/PHPMailer.php:1759]
+---------------------------------------------------------------
+[ 2019-06-14T18:07:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.416105s][吞吐率：2.40req/s] [内存消耗：4,490.55kb] [文件加载：55]
+[ error ] [4096]Argument 1 passed to think\db\Connection::bindValue() must be of the type array, string given, called in /Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php on line 438 and defined[/Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:497]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130447s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.085592s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:11:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.351539s][吞吐率：2.84req/s] [内存消耗：4,388.70kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.120105s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.077748s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:11:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.250727s][吞吐率：3.99req/s] [内存消耗：4,213.92kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.119539s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.076035s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:12:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.433838s][吞吐率：2.31req/s] [内存消耗：4,388.98kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127296s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.084865s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:12:36+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.343036s][吞吐率：2.92req/s] [内存消耗：4,389.11kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125335s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.081342s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:13:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：3.818568s][吞吐率：0.26req/s] [内存消耗：4,381.73kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:1.117569s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.613528s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:1.827899s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:13:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.468273s][吞吐率：2.14req/s] [内存消耗：4,381.73kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125289s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.084113s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.163084s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:14:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：1.765491s][吞吐率：0.57req/s] [内存消耗：4,346.13kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.741760s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.261476s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.656341s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:15:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.454571s][吞吐率：2.20req/s] [内存消耗：4,381.73kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121634s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.079595s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.157153s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:15:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.446990s][吞吐率：2.24req/s] [内存消耗：4,345.79kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117803s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.075195s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.149146s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:16:06+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.505037s][吞吐率：1.98req/s] [内存消耗：4,419.45kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132175s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.088214s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.171554s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:17:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.528508s][吞吐率：1.89req/s] [内存消耗：4,347.29kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.125555s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.082061s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.081540s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:18:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.573198s][吞吐率：1.74req/s] [内存消耗：4,385.30kb] [文件加载：53]
+[ error ] [-1]exception 'think\exception\PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451
+Stack trace:
+#0 [internal function]: think\db\Connection->execute('insert into `us...', Array)
+#1 /Applications/MAMP/htdocs/thinkphp/library/think/Db.php(154): call_user_func_array(Array, Array)
+#2 /Applications/MAMP/htdocs/scrm/application/model/member/Basic.php(82): think\Db::__callStatic('execute', Array)
+#3 /Applications/MAMP/htdocs/scrm/application/model/member/Basic.php(82): think\Db::execute('insert into `us...', Array)
+#4 /Applications/MAMP/htdocs/scrm/application/merchant/controller/User.php(67): app\model\member\Basic->addUser(Array)
+#5 [internal function]: app\merchant\controller\User->register()
+#6 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(197): ReflectionMethod->invokeArgs(Object(app\merchant\controller\User), Array)
+#7 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(411): think\App::invokeMethod(Array, Array)
+#8 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(296): think\App::module(Array, Array, NULL)
+#9 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(124): think\App::exec(Array, Array)
+#10 /Applications/MAMP/htdocs/thinkphp/start.php(18): think\App::run()
+#11 /Applications/MAMP/htdocs/scrm/public/index.php(20): require('/Applications/M...')
+#12 {main}[/Applications/MAMP/htdocs/scrm/application/merchant/controller/User.php:75]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.117347s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.077680s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.155588s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:19:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.395500s][吞吐率：2.53req/s] [内存消耗：4,211.63kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129848s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.085229s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.085982s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:19:55+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.532109s][吞吐率：1.88req/s] [内存消耗：4,385.57kb] [文件加载：53]
+[ error ] [-1]exception 'think\exception\PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /Applications/MAMP/htdocs/thinkphp/library/think/db/Connection.php:451
+Stack trace:
+#0 [internal function]: think\db\Connection->execute('insert into `us...', Array)
+#1 /Applications/MAMP/htdocs/thinkphp/library/think/Db.php(154): call_user_func_array(Array, Array)
+#2 /Applications/MAMP/htdocs/scrm/application/model/member/Basic.php(82): think\Db::__callStatic('execute', Array)
+#3 /Applications/MAMP/htdocs/scrm/application/model/member/Basic.php(82): think\Db::execute('insert into `us...', Array)
+#4 /Applications/MAMP/htdocs/scrm/application/merchant/controller/User.php(67): app\model\member\Basic->addUser(Array)
+#5 [internal function]: app\merchant\controller\User->register()
+#6 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(197): ReflectionMethod->invokeArgs(Object(app\merchant\controller\User), Array)
+#7 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(411): think\App::invokeMethod(Array, Array)
+#8 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(296): think\App::module(Array, Array, NULL)
+#9 /Applications/MAMP/htdocs/thinkphp/library/think/App.php(124): think\App::exec(Array, Array)
+#10 /Applications/MAMP/htdocs/thinkphp/start.php(18): think\App::run()
+#11 /Applications/MAMP/htdocs/scrm/public/index.php(20): require('/Applications/M...')
+#12 {main}[/Applications/MAMP/htdocs/scrm/application/merchant/controller/User.php:76]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133621s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.086470s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.086479s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:20:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.769649s][吞吐率：1.30req/s] [内存消耗：4,326.49kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.120556s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.078533s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.156229s ]
+[ sql ] [ SQL ] insert into `user` (store_id,username,password,salt,email,ip,date_added,master)
+                values ('11','许斌','c533ebb807df295a48d5319bc55610ca','387941','505761679@qq.com','127.0.0.1','2019-06-14 18:20:37','1') [ RunTime:0.157655s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDUwNzYzNywibmJmIjoiIiwiZXhwIjoxNTYwNTE0ODM3LCJ1c2VyX2lkIjoiMSJ9.qv_J_Az8v1C0UJuGXD0aCT_OWZuEiQl0rK8OUGkqgq8' WHERE `user_id`='1' [ RunTime:0.159772s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:22:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.824038s][吞吐率：1.21req/s] [内存消耗：4,327.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130467s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.086803s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.086768s ]
+[ sql ] [ SQL ] insert into `user` (store_id,username,password,salt,email,ip,date_added,master)
+                values ('1','许斌','0ae5325c165290d0acfb2e126b489b06','526364','505761679@qq.com','127.0.0.1','2019-06-14 18:22:29','1') [ RunTime:0.168917s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDUwNzc0OSwibmJmIjoiIiwiZXhwIjoxNTYwNTE0OTQ5LCJ1c2VyX2lkIjoiMSJ9.vAvGbeDPXFOoK8SiTfKBDO2lNjZ_B7yIsFmIzX7Nb-g' WHERE `user_id`='1' [ RunTime:0.174506s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:23:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.673777s][吞吐率：1.48req/s] [内存消耗：4,439.77kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122422s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.081452s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.157908s ]
+[ sql ] [ SQL ] insert into `user` (store_id,username,password,salt,email,ip,date_added,master)
+                values ('1','许斌','a93fdbc0e26f6ec310a597145afad93b','327910','505761679@qq.com','127.0.0.1','2019-06-14 18:23:32','1') [ RunTime:0.080892s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDUwNzgxMiwibmJmIjoiIiwiZXhwIjoxNTYwNTE1MDEyLCJ1c2VyX2lkIjoiMSJ9.uczr4PbcHDlV88LqIIrL4GYls3SX3ijhcx-zbFekiBM' WHERE `user_id`='1' [ RunTime:0.087053s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:27:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.277701s][吞吐率：3.60req/s] [内存消耗：4,346.43kb] [文件加载：52]
+[ error ] [8]未定义数组索引: userName[/Applications/MAMP/htdocs/scrm/application/model/member/Basic.php:22]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128757s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,username,mobile,email,password,salt from `user` where username = '许斌' [ RunTime:0.080188s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:28:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.250209s][吞吐率：4.00req/s] [内存消耗：4,174.90kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.121653s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,username,email,password,salt from `user` where username = '许斌' [ RunTime:0.078235s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:30:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/logon/logon
+[ info ] dev.scrm.com/index.php?s=merchant/logon/logon [运行时间：0.352313s][吞吐率：2.84req/s] [内存消耗：4,287.71kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.115704s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select user_id,username as userName,email,password,salt from `user` where username = '许斌' [ RunTime:0.077646s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDUwODIxNiwibmJmIjoiIiwiZXhwIjoxNTYwNTE1NDE2LCJ1c2VyX2lkIjoxfQ.cF9lgEAqt2KaX2uw7P7z3VUqsHEZjvl5HMt-oE8I_BQ' WHERE `user_id`='1' [ RunTime:0.099243s ]
+---------------------------------------------------------------
+[ 2019-06-14T18:33:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index.php?s=merchant/user/register
+[ info ] dev.scrm.com/index.php?s=merchant/user/register [运行时间：0.695997s][吞吐率：1.44req/s] [内存消耗：4,327.05kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122244s ] mysql:host=47.104.18.63;dbname=subao_scrm;charset=utf8
+[ sql ] [ SQL ] select store_id from `store` where name = '星汉里网络' [ RunTime:0.081766s ]
+[ sql ] [ SQL ] insert into `store` (`name`) values ('星汉里网络') [ RunTime:0.081334s ]
+[ sql ] [ SQL ] insert into `user` (store_id,username,password,salt,email,ip,date_added,master)
+                values ('1','许斌','cf09f8e846e2defa4c156bcc8777894c','886267','505761679@qq.com','127.0.0.1','2019-06-14 18:33:20','1') [ RunTime:0.159710s ]
+[ sql ] [ SQL ] UPDATE `user` SET `token`='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJtaWxreXdheSIsImF1ZCI6Ilx1OGJiOFx1NjU4YyIsImlhdCI6MTU2MDUwODQwMCwibmJmIjoiIiwiZXhwIjoxNTYwNTE1NjAwLCJ1c2VyX2lkIjoiMSJ9.U2ywiA5CfITMd_6ALuB6uVBOG0xSbHNke6FkDNhPObw' WHERE `user_id`='1' [ RunTime:0.081790s ]
